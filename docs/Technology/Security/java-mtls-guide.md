@@ -1,6 +1,6 @@
 ---
 title: Java mTLS (Mutual TLS) — Complete Guide
-sidebar_position: 4
+sidebar_position: 2
 displayed_sidebar: technologySidebar
 tags:
   - java

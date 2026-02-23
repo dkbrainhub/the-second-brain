@@ -1,5 +1,6 @@
 ---
 title: OpenSSL Commands Cheatsheet
+sidebar_position: 7
 description: A comprehensive reference of OpenSSL commands for certificate management, key generation, encryption, and TLS debugging.
 sidebar_label: OpenSSL Cheatsheet
 tags:

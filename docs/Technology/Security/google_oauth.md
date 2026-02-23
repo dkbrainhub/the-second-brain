@@ -1,6 +1,6 @@
 ---
 title: Google OAuth Setup Guide
-sidebar_position: 3
+sidebar_position: 5
 displayed_sidebar: technologySidebar
 tags:
   - oauth

@@ -1,6 +1,6 @@
 ---
 title: API Authentication Techniques
-sidebar_position: 1
+sidebar_position: 4
 displayed_sidebar: technologySidebar
 tags:
   - api

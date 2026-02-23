@@ -1,5 +1,6 @@
 ---
 title: Java Keytool Commands Cheatsheet
+sidebar_position: 6
 description: A comprehensive reference of Java keytool commands for managing keystores, certificates, and trust stores.
 sidebar_label: Keytool Cheatsheet
 tags:

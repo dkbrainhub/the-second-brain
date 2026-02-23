@@ -1,6 +1,6 @@
 ---
 title: mTLS and Certificates Guide
-sidebar_position: 2
+sidebar_position: 3
 displayed_sidebar: technologySidebar
 tags:
   - security

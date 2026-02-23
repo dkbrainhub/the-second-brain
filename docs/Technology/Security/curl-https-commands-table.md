@@ -1,7 +1,7 @@
 ---
 title: Curl HTTPS Diagnostic cheatsheet
 description: A quick reference table of curl commands for diagnosing HTTPS connections, TLS handshakes, and certificate issues.
-sidebar_label: Curl HTTPS Commands
+sidebar_label: Curl HTTPS Diagnostic cheatsheet
 tags:
   - curl
   - https
