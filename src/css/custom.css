@@ -159,104 +159,23 @@
   margin: 0;
 }
 
-/* Sticky Reading Time Header */
-.sticky-reading-time {
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  background: var(--ifm-background-surface-color, #ffffff);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--ifm-toc-border-color, #e5e7eb);
-  padding: 0.5rem 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 46px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-}
-
-[data-theme='dark'] .sticky-reading-time {
-  background: rgba(30, 41, 59, 0.8);
-  border-bottom-color: #334155;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-}
-
-.sticky-reading-time-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  gap: 1rem;
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--ifm-font-color-base);
-}
-
-.sticky-time-left {
-  display: flex;
+/* Reading Time Badge */
+.reading-time-badge {
+  display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  white-space: nowrap;
-}
-
-.sticky-time-middle {
-  flex: 1;
-  text-align: center;
-}
-
-.sticky-time-right {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  white-space: nowrap;
-}
-
-.reading-time-label {
-  color: var(--ifm-color-gray-600, #6b7280);
-  font-size: 0.8rem;
-  font-weight: 500;
-}
-
-.reading-time-value {
-  color: var(--ifm-color-primary);
-  font-weight: 700;
-  font-size: 0.95rem;
-}
-
-.timer-display {
-  color: var(--ifm-color-primary);
-  font-family: 'Monaco', 'Courier New', monospace;
-  font-weight: 700;
-  font-size: 0.95rem;
-  min-width: 40px;
-}
-
-.sticky-timer-btn {
-  background: var(--ifm-color-primary);
-  color: white;
-  border: none;
-  padding: 0.35rem 0.65rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 0.8rem;
+  background: var(--ifm-color-primary-lightest, #e0f2fe);
+  color: var(--ifm-color-primary-dark, #0369a1);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
   font-weight: 600;
-  transition: all 0.2s ease;
-  white-space: nowrap;
+  margin-bottom: 1rem;
 }
 
-.sticky-timer-btn:hover {
-  opacity: 0.9;
-  transform: translateY(-2px);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.sticky-timer-btn.btn-stop {
-  background: #ef4444;
-}
-
-.sticky-timer-btn.btn-reset {
-  background: #8b5cf6;
-  padding: 0.35rem 0.5rem;
+[data-theme='dark'] .reading-time-badge {
+  background: rgba(59, 130, 246, 0.15);
+  color: var(--ifm-color-primary-lighter, #93c5fd);
 }
 
 /* Article metadata styling */
@@ -465,38 +384,9 @@
 
 /* Response for mobile */
 @media (max-width: 768px) {
-  .sticky-reading-time {
-    padding: 0.4rem 0.8rem;
-    height: 44px;
-  }
-
-  .sticky-reading-time-content {
-    gap: 0.6rem;
-  }
-
-  .sticky-time-left {
-    gap: 0.3rem;
-  }
-
-  .sticky-time-middle {
-    display: none;
-  }
-
-  .sticky-time-right {
-    gap: 0.3rem;
-  }
-
-  .reading-time-label {
-    font-size: 0.75rem;
-  }
-
-  .reading-time-value {
-    font-size: 0.85rem;
-  }
-
-  .sticky-timer-btn {
-    padding: 0.3rem 0.5rem;
-    font-size: 0.75rem;
+  .reading-time-badge {
+    font-size: 0.8rem;
+    padding: 0.35rem 0.7rem;
   }
 }
 
